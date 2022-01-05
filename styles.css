@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;   
+    font-style: normal;
+    font-weight: normal;
+    line-height: 18px;
+    
+}
+
+
+body {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(236,234,234,1) 21%, rgba(221,217,217,1) 38%, rgba(184,175,175,1) 80%, rgba(172,162,162,1) 93%);
+    
+}
+
+.container {
+    background: #E5E5E5;
+    width: 375px;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 375px;
+}
+
+header {
+    background: #1B83E2;
+    height: 66px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #F4F4F4;
+    text-align: center;
+    padding-top: 24px;
+}
+
+
+main {
+    padding: 24px;
+}
+
+label {
+    font-size: 14px;   
+    color: #777777;
+}
+
+
+select {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: block;
+    height: 48px;
+    width: 100%;
+    outline: none;
+    /*tirar borda do selector*/
+    cursor: pointer;
+    appearance: none;
+    /*tirar simbolo de certo do select*/
+    padding-left: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    margin-top: 6px;
+    margin-bottom: 24px;
+}
+
+input {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    display: block;
+    height: 48px;
+    width: 100%;
+    outline: none;
+    padding-left: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+}
+
+button {
+    background: #1B83E2;
+    border-radius: 25px;
+    width: 327px;
+    height: 48px;
+    margin-top: 39px;
+    color: #F4F4F4;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 36px;
+}
+
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.7;
+}
+
+section {
+    border: 1px solid #1B83E2;
+    border-radius: 4px;
+}
+
+.second-container {
+    text-align: center;
+    padding:10px;
+}
+
+.styles-currency {
+font-size: 14px;
+color: #777777;
+}
+
+.value-currency{
+    color: #1B83E2;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.arrow-img{
+    margin: 15px auto;
+    display: block;
+}
+
+
+.moeda{
+    
+    position: absolute;
+    margin-top: -58px;
+    
+}
+
+
