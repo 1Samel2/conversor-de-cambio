@@ -126,13 +126,25 @@ color: #777777;
 
 }
 
-.arrow-img{
+.moeda{
     margin: 15px auto;
     display: block;
     
+
 }
 
+.moeda {
+    animation: moeda-logo  infinite 10s linear;
+}
 
+@keyframes moeda-logo {
+from {
+    transform: rotate(0deg);
+}
+to {
+    transform: rotate(360deg);
+}
+}
 
 
 
