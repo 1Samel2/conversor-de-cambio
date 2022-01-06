@@ -4,7 +4,7 @@
 <h1 align="center"> Projeto conversor de câmbio </h1>
 
 <h5 align="center"> Objetivo criar com o máximo de animações para treinar </h5>
-<a  href="https://teste-site-ao-ar-4lrv84f1n-1samel2.vercel.app">Click aqui para ver o site no ar</a>
+<a  href="https://teste-site-ao-ar.vercel.app">Click aqui para ver o site no ar</a>
 
 <p align="center"> 
 
