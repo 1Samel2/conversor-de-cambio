@@ -133,7 +133,7 @@ color: #777777;
 
 }
 
-.moeda {
+ .moeda {
     animation: moeda-logo  infinite 10s linear;
 }
 
@@ -145,6 +145,4 @@ to {
     transform: rotate(360deg);
 }
 }
-
-
-
+ 
