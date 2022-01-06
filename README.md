@@ -1,5 +1,5 @@
 ﻿<p align="center"> 
-  <img src="./img/conversor.png" alt='img-site-conversor' />
+  <img src="./img/conversor1.png" alt='img-site-conversor' />
 </p>
 <h1 align="center"> Projeto conversor de câmbio </h1>
 
