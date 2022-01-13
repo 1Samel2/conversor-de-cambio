@@ -11,13 +11,13 @@
 
 
 body {
-    background: rgb(255,255,255);
+    background: white;
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(236,234,234,1) 21%, rgba(221,217,217,1) 38%, rgba(184,175,175,1) 80%, rgba(172,162,162,1) 93%);
     
 }
 
 .container {
-    background: #E5E5E5;
+    background: white;
     width: 375px;
     margin: 0 auto;
     margin-top: 20px;

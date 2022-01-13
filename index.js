@@ -20,7 +20,7 @@ const converterValues = () => {
         currency: "BRL",
     }).format(inputReais)
 
-    if (select.value === "US$ Dólar Americano") {
+    if (select.value === "US$ Dòlar americano") {
         currencyValueText.innerHTML = new Intl.NumberFormat("en-US", {
             style: "currency",
             currency: "USD",
@@ -44,7 +44,7 @@ const changeCurrency = () => {
     const currencyName = document.getElementById("currency-name")
     const currencyImg = document.getElementById("currency-img")
 
-    if (select.value === 'US$ Dólar Americano') {
+    if (select.value === "US$ Dòlar americano") {
         currencyName.innerHTML = "Dólar Americano"
         currencyImg.src = "./ASSETS/estados-unidos.svg"
     }
