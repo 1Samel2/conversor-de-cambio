@@ -2,18 +2,21 @@ const button = document.getElementById('button-active')
 
 const select = document.getElementById("currency-select")
 
-const dolar = 5.2
 
-const euro = 6
-
-const bitcoin = 0.0000043
-
-
-const converterValues = () => {
+const converterValues = async () => {   /* Muito importante colocar o Async junto com o  await, fetch para consumir uma api, lembre que o js funciona de cima para baixo */
     const inputReais = document.getElementById('input-real').value
     const realValueText = document.getElementById('real-value-text')
     const currencyValueText = document.getElementById('currency-value-text')
 
+    const data = await fetch('https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL').then(response => response.json()) /* muito importante colocar o .the  */
+
+const dolar = data.USDBRL.high
+
+const euro = data.EURBRL.high
+
+const bitcoin = data.BTCBRL.high
+
+    console.log(data)
 
     realValueText.innerHTML = new Intl.NumberFormat("pt-BR", {
         style: "currency",
