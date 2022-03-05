@@ -13,15 +13,15 @@
 body {
     background: white;
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(236,234,234,1) 21%, rgba(221,217,217,1) 38%, rgba(184,175,175,1) 80%, rgba(172,162,162,1) 93%);
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
     background: white;
     width: 375px;
-    margin: 0 auto;
-    margin-top: 20px;
-    width: 375px;
+    
     
     
 }
@@ -29,13 +29,15 @@ body {
 header {
     background: #1B83E2;
     height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
     font-size: 24px;
     color: #F4F4F4;
-    text-align: center;
-    padding-top: 24px;
+   
 }
 
 
@@ -58,10 +60,8 @@ select {
     height: 48px;
     width: 100%;
     outline: none;
-    /*tirar borda do selector*/
     cursor: pointer;
     appearance: none;
-    /*tirar simbolo de certo do select*/
     padding-left: 16px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
     margin-top: 6px;
@@ -107,11 +107,18 @@ button:active {
 section {
     border: 1px solid #1B83E2;
     border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
 }
 
 .second-container {
-    text-align: center;
     padding:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
 }
 
 .styles-currency {
@@ -127,8 +134,7 @@ color: #777777;
 }
 
 .moeda{
-    margin: 15px auto;
-    display: block;
+    
     
 
 }
